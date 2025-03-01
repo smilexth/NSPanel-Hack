@@ -1,12 +1,10 @@
-# คู่มือ NSPanel Pro 
+# คู่มือ NSPanel Pro Hack
 
 *Update : 2/10/2024*
 
-![NSPanel Pro Logo](images/image1.png "NSPanel Pro")
-
 ## สารบัญ
 
-- [คู่มือ NSPanel Pro](#คู่มือ-nspanel-pro)
+- [คู่มือ NSPanel Pro Hack](#คู่มือ-nspanel-pro-hack)
   - [สารบัญ](#สารบัญ)
   - [เตรียมความพร้อม](#เตรียมความพร้อม)
   - [วิธีเปิดใช้งานครั้งแรก และ เปิด developer mode และ adb บน ns panel pro และ reset](#วิธีเปิดใช้งานครั้งแรก-และ-เปิด-developer-mode-และ-adb-บน-ns-panel-pro-และ-reset)
@@ -80,26 +78,11 @@
 
 1. จ่ายไฟให้ ns panel pro แล้วเลือก ภาษา ภูมิภาค และเชื่อมต่อ wifi ให้เรียบร้อย
 
-   ![ขั้นตอนที่ 1](images/image2.png)
-   ![ขั้นตอนที่ 2](images/image3.png)
-   ![ขั้นตอนที่ 3](images/image4.png)
-   ![ขั้นตอนที่ 4](images/image5.png)
-   ![ขั้นตอนที่ 5](images/image6.png)
-   ![ขั้นตอนที่ 6](images/image7.png)
-
 2. เข้าแอพ eWeLink แล้วทำการเพิ่ม ns panel pro โดยสแกน qr code บนหน้าจอ
-
-   ![eWeLink 1](images/image8.png)
-   ![eWeLink 2](images/image9.png)
 
 3. อัพเดทซอฟท์แวร์ ให้ล่าสุด *optional แต่แนะนำให้ทำ*
 
    ปัดหน้าจอลง กด "การตั้งค่า" -> "เกี่ยวกับ"-> "อัพเดทซอฟท์แวร์"
-
-   ![อัพเดท 1](images/image10.png)
-   ![อัพเดท 2](images/image11.png)
-   ![อัพเดท 3](images/image12.png)
-   ![อัพเดท 4](images/image13.png)
 
    *เพราะหลังจากเปิด dev mode ตัว ns panel pro จะถูกตัดประกัน และ อัพเดท*
 
@@ -107,28 +90,13 @@
 
    กดที่ อุปกรณ์ -> กดสามจุดมุมบนขวา -> กด "หมายเลขอุปกรณ์" หลายๆครั้งจนขึ้น popup
 
-   ![Dev Mode 1](images/image14.png)
-   ![Dev Mode 2](images/image15.png)
-   ![Dev Mode 3](images/image16.png)
-   ![Dev Mode 4](images/image17.png)
-
    กด "โหมดนักพัฒนา" -> กด "ADB" -> กด "ยอมรับและเปิดการทำงาน"
-
-   ![ADB 1](images/image18.png)
-   ![ADB 2](images/image19.png)
-   ![ADB 3](images/image20.png)
-   ![ADB 4](images/image21.png)
 
 5. เปิด Zigbee Turbo และ เปลี่ยนโหมด Zigbee *optional*
 
    กดที่ อุปกรณ์ -> กดสามจุดมุมบนขวา -> ฟีเจอร์รุ่นทดลอง  
    กดเปิด Zigbee Turbo และกดที่โหมด โหมด Zigbee  
    แล้วก็กด เปลี่ยนเข้าสู่เราเตอร์โหมด
-
-   ![Zigbee 1](images/image22.png)
-   ![Zigbee 2](images/image23.png)
-   ![Zigbee 3](images/image24.png)
-   ![Zigbee 4](images/image25.png)
 
    *การเปลี่ยนโหมด Zigbee จะทำให้ ns panel pro คืนค่าจากโรงงาน และเลิกผูกกับ eWeLink โดยอัตโนมัติ*
 
@@ -141,11 +109,6 @@
    - ทำผ่าน ns panel pro ดังนี้ ปัดหน้าจอลง กด "การตั้งค่า" -> "เกี่ยวกับ"-> "ตั้งค่าใหม่"
    - ทำผ่านแอพ eWeLink โดย กดที่ อุปกรณ์ -> กดสามจุดมุมบนขวา -> "ลบอุปกรณ์"
 
-   ![Reset 1](images/image26.png)
-   ![Reset 2](images/image27.png)
-   ![Reset 3](images/image28.png)
-   ![Reset 4](images/image29.png)
-
    หลังจากเลิกผูกอุปกรณ์ จาก บัญชี eWeLink ตัว ns panel pro จะคืนค่าโรงงาน เหมือนตอนแกะกล่อง จะเป็นอันเสร็จสิ้น
 
 ## วิธีเปิดใช้งาน และ การดู local ip ของ ns panel pro โดยไม่ต้อง ip scan หรือ ดูในเราเตอร์
@@ -153,17 +116,7 @@
 หลังจากเราได้เลิกผูก หรือ reset อุปกรณ์แล้ว  
 ก็ให้เลือก ภาษา ภูมิภาค และเชื่อมต่อ wifi ให้เรียบร้อย แต่ !!! ไม่ต้องผูก eWeLink !!!
 
-![Setup 1](images/image30.png)
-![Setup 2](images/image31.png)
-![Setup 3](images/image32.png)
-![Setup 4](images/image33.png)
-
 วิธีดู IP คือ ปัดหน้าจอลง กด "การตั้งค่า" -> เกี่ยวกับ -> IP
-
-![IP 1](images/image34.png)
-![IP 2](images/image35.png)
-![IP 3](images/image36.png)
-![IP 4](images/image37.png)
 
 แค่นี้ ns panel pro ก็จะพร้อมใช้งานในขั้นตอนถัดไป
 
@@ -212,19 +165,14 @@ adb uninstall {package name}     ex. adb uninstall com.seaky.nspanelpro.tools
    จะมี popup "Select a Home app" ขึ้นมา  
    ให้กดเลือก "Launcher " แล้วกด "Always"
 
-   ![Launcher](images/image38.png)
-
 3. วิธีการเปิด Navigation Bar
 
    กดไปที่ Settings -> Display -> show status bar แล้วกดเปิด  
    หรือจะใช้คำสั่ง `adb shell am start -a com.android.settings.DISPLAY_SETTINGS` เพื่อเข้าหน้า Display 
 
-   ![Nav 1](images/image39.png)
-   ![Nav 2](images/image40.png)
-   ![Nav 3](images/image41.png)
-   ![Nav 4](images/image42.png)
-
 ## วิธีการติดตั้งและตั้งค่า Text to Speech
+เข้า terminal (ฝั่ง linux, mac) หรือ cmd (สำหรับฝั่ง windows) เข้าไปในโฟลเดอร์ Platform Tools
+
 
 1. วิธีติดตั้ง Speech Recognition & Synthesis
 
@@ -238,18 +186,7 @@ adb uninstall {package name}     ex. adb uninstall com.seaky.nspanelpro.tools
 
    หรือ จะใช้คำสั่ง `adb shell am start -a com.android.settings.TTS_SETTINGS` เพื่อไปหน้า Text-to-speech output
 
-   ![TTS 1](images/image43.png)
-   ![TTS 2](images/image44.png)
-   ![TTS 3](images/image45.png)
-   ![TTS 4](images/image46.png)
-   ![TTS 5](images/image47.png)
-
    กด "Preferred engine"-> "Speech Recognition & Synthesis from Google"-> "OK"
-
-   ![TTS 6](images/image48.png)
-   ![TTS 7](images/image49.png)
-   ![TTS 8](images/image50.png)
-   ![TTS 9](images/image51.png)
 
    ตอนนี้ Text-to-speech ก็จะพร้อมใช้งาน (เพิ่มเสียงตรงเมนูบาร์ขวาล่าง เพิ่มเสียงให้สุดด้วย)
 
@@ -276,17 +213,7 @@ adb uninstall {package name}     ex. adb uninstall com.seaky.nspanelpro.tools
 
    ให้กดเปิดแอพ NSPanelTools แล้วให้ permission ให้เรียบร้อย (ให้กดย้อนกลับ เพื่อกลับมาที่ tools)
 
-   ![Tools 1](images/image52.png)
-   ![Tools 2](images/image53.png)
-   ![Tools 3](images/image54.png)
-   ![Tools 4](images/image55.png)
-   ![Tools 5](images/image56.png)
-   ![Tools 6](images/image57.png)
-   ![Tools 7](images/image58.png)
-
    แล้วกด active
-
-   ![Tools 8](images/image59.png)
 
 ## วิธีการใช้งาน NSPanel Pro Tools และ ฟีเจอร์ทั้งหมด และการนำเข้า Home Assistant
 
