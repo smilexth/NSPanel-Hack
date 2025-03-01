@@ -1,6 +1,6 @@
 # คู่มือ NSPanel Pro Hack
 
-*Update : 2/10/2024*
+*Update : 1 Mar 2025*
 
 ## สารบัญ
 
@@ -39,7 +39,7 @@
    ติดตั้ง ADB drivers (เฉพาะจะใช้ adb ผ่าน usb ถ้าใช้ adb over tcp ให้ข้ามการติดตั้งนี้ไป)
 
    - Windows ดาวน์โหลดได้ที่ [https://developer.android.com/studio/run/win-usb](https://developer.android.com/studio/run/win-usb)
-   - Mac ไม่ต้องลง driver
+   - Mac ไม่ต้องลง driver `brew install android-platform-tools`
    - Linux (Ubuntu) `apt-get install android-sdk-platform-tools-common`
 
    ติดตั้ง Android SDK Platform Tools
